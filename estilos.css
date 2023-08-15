@@ -61,3 +61,21 @@ footer h3 {
 footer p {
   margin: 10px 0;
 }
+/* Slider */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.slider {
+  overflow: hidden;
+  width: 100%;
+  height: 300px;
+}
+
+.slide {
+  float: left;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s;
+}
