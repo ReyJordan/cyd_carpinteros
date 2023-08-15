@@ -62,7 +62,7 @@ footer p {
   margin: 10px 0;
 }
 /* Slider */
-body {
+main {
   margin: 0;
   font-family: Arial, sans-serif;
 }
@@ -73,9 +73,13 @@ body {
   height: 300px;
 }
 
+.slides{
+  display: flex;
+  width: 500%; /* Ajusta sun la cantidad de diapositivas */
+}
+
 .slide {
-  float: left;
-  width: 100%;
-  height: 100%;
+  float: 1;
+  width: 20%;
   transition: transform 0.5s;
 }
