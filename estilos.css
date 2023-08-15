@@ -76,10 +76,21 @@ main {
 .slides{
   display: flex;
   width: 500%; /* Ajusta sun la cantidad de diapositivas */
+  animation: slide 15s infinite alternate;
 }
 
 .slide {
-  float: 1;
+  float:1;
   width: 20%;
-  transition: transform 0.5s;
+}
+@keyframes slide{
+  0%, 100% {
+    transform: translateX(0);
+  }
+  20%, 80%{
+    transform: translateX(-100%);
+  }
+  40%, 60% {
+    transform: translateX(-200%);
+  }
 }
